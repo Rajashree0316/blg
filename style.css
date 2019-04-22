@@ -1,0 +1,76 @@
+.container{
+	padding: 5rem;
+}
+.avatar {
+	vertical-align: middle;
+	border-radius: 50%;
+	border: 1px solid white;
+}
+.avatar-lg{
+	width: 50px;
+	height: 50px;
+}
+.avatar-sm{
+	width: 30px;
+	height: 30px;
+}
+.cursor{
+	cursor: pointer;
+}
+.p-l-3{
+	padding-left: 3rem;
+}
+.comments{
+	height: 7em;
+	overflow-x: auto;
+}
+.comments p{
+	padding: 0 20px 0 20px;
+}
+.comments span{
+	font-size: 13px;
+}
+.p-b-10{
+	padding-bottom: 10px;
+}
+#comments::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#comments::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+#comments::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #12a7af;
+}
+.navbar{
+	background: #12a7af !important;
+
+}
+.navbar a{
+	color: white !important;
+}
+.btn-outline-primary {
+	color: #fff !important;
+	background-color: #12a7af !important;
+	border-color: #12a7af !important;
+	background-image: none !important;
+}
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active{
+	border-color: currentColor !important;
+	color: #12a7af !important;
+	background-color: transparent !important;
+}
+.date{
+	font-size: 13px;
+	color: grey;
+}
